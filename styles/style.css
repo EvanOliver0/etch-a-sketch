@@ -1,11 +1,24 @@
+button {
+    height: 100%;
+    width: 100%;
+}
+
 .colored {
     background-color: black;
     color: white;
 }
 
+#button-div {
+    height: 50px;
+    margin: 30px auto;
+    width: 200px;
+}
+
 #container {
+    border: 2px solid black;
     display: grid;
     grid-template: repeat(16, 1fr) / repeat(16, 1fr);
     height: 800px;
+    margin: 0 auto;
     width: 800px;
 }
