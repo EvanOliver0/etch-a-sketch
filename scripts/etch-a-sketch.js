@@ -13,7 +13,6 @@ function createNewPad(pad, dimensions) {
 }
 function mouseEnter(e) {
     let divEntered = e.target;
-    console.log(`Entered div ${divEntered.textContent}`)
     divEntered.classList.add("colored");
 }
 function promptForDimensions() {
